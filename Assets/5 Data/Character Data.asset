@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ede013df8f61aa4d8947d4eb863009e, type: 3}
+  m_Name: Character Data
+  m_EditorClassIdentifier: 
+  entries:
+  - name: Smiley
+    data:
+      modelPrefab: {fileID: 1344315109481737303, guid: 393e8edbdd294784ba2fc1e4e41894ec, type: 3}
+      firmness: 0
+      alwaysJumping: 1
+      stats:
+        mass: 0.28
+        angularDrag: 0.06
+        airDrag: 0.1
+        groundDrag: 16
+        groundSpeed: 0
+        airSpeed: 3
+        jumpForce: 610
+        damageMultiplier: 1.5
+        health: 100
+  - name: Spike
+    data:
+      modelPrefab: {fileID: 8478952745275426410, guid: 3f9865b1a79c66e4896ca6e6d0b6e4d8, type: 3}
+      firmness: 0.9
+      alwaysJumping: 0
+      stats:
+        mass: 0.76
+        angularDrag: 0.06
+        airDrag: 0.1
+        groundDrag: 0.3
+        groundSpeed: 9.5
+        airSpeed: 3
+        jumpForce: 880
+        damageMultiplier: 2.25
+        health: 135
+  - name: Pumpkin
+    data:
+      modelPrefab: {fileID: 8328763832952561757, guid: e02f2df78d1ef804190078166b882634, type: 3}
+      firmness: 0.849
+      alwaysJumping: 0
+      stats:
+        mass: 0.34
+        angularDrag: 0.1
+        airDrag: 0.1
+        groundDrag: 0.24
+        groundSpeed: 5
+        airSpeed: 2
+        jumpForce: 410
+        damageMultiplier: 1.5
+        health: 175
+  - name: Apple
+    data:
+      modelPrefab: {fileID: 167772318736539758, guid: 5e2dd72cd43366e4f9d06670a089785b, type: 3}
+      firmness: 0.748
+      alwaysJumping: 0
+      stats:
+        mass: 0.3
+        angularDrag: 0.06
+        airDrag: 0.19
+        groundDrag: 0.3
+        groundSpeed: 5
+        airSpeed: 2.5
+        jumpForce: 370
+        damageMultiplier: 2
+        health: 100

@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ff2365cd5ee0a43b3ead26566e7d47, type: 3}
+  m_Name: Audio List
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3420673965168462477, guid: b163633a1db747645bdf1cef1b9c6157, type: 3}
+  soundEffects:
+  - name: SelectSmiley
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 2ff5012ba1af5ed46913d6cf29bf5515, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: SelectPumpkin
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 2eaaf22a50a29104e82f3b55ca111449, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: SelectApple
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: d6e65c011b5774e439b4613441a99d19, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: SelectSpike
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 096cfabb3f88f54418c0b10ba42b1ea6, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerJumpSmiley
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 3a774a90032942447ade8be30624a566, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.4
+      minPitch: -0.35
+      maxPitch: 0.36
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerJumpPumpkin
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 3a774a90032942447ade8be30624a566, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.4
+      minPitch: -0.35
+      maxPitch: 0.36
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerJumpApple
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 3a774a90032942447ade8be30624a566, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.4
+      minPitch: -0.35
+      maxPitch: 0.36
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerJumpSpike
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 3a774a90032942447ade8be30624a566, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.4
+      minPitch: -0.35
+      maxPitch: 0.36
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerLandingSmiley
+    transitionTo: 
+    entries:
+    - clip: {fileID: 0}
+      looping: 0
+      priority: 0
+      volume: -0.33
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerLandingPumpkin
+    transitionTo: 
+    entries:
+    - clip: {fileID: 0}
+      looping: 0
+      priority: 0
+      volume: -0.33
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerLandingApple
+    transitionTo: 
+    entries:
+    - clip: {fileID: 0}
+      looping: 0
+      priority: 0
+      volume: -0.33
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: PlayerLandingSpike
+    transitionTo: 
+    entries:
+    - clip: {fileID: 0}
+      looping: 0
+      priority: 0
+      volume: -0.33
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: Death
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 1d048545973ef7b45ad6f3569facf6fa, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.1
+      minPitch: 0
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: Punch
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 2724524b210465b4ab2415f9e73ccc92, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.1
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: SmallPunch
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 2724524b210465b4ab2415f9e73ccc92, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.1
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: Spin
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: c1fbfeb4937c6074a860f0e13e6aef6b, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: WeakSpin
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: c1fbfeb4937c6074a860f0e13e6aef6b, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.3
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: Bullet
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: b02ccbfab6880664e80726dcc33cc7a5, type: 3}
+      looping: 0
+      priority: 0
+      volume: 0
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  - name: SlowBullet
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: b02ccbfab6880664e80726dcc33cc7a5, type: 3}
+      looping: 0
+      priority: 0
+      volume: 0
+      minPitch: -0.1
+      maxPitch: 0.1
+      panStereo: 0
+      spatialBlend: -1
+  music:
+  - name: Lobby
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 74345bb4ae20d1a42b7146428308d34c, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.5
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: Stage
+    transitionTo: 
+    entries:
+    - clip: {fileID: 8300000, guid: 1c8e4b7c52d6b6c4dbdae5f74524fad8, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.55
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1

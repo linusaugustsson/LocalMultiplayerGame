@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09246f5be8f916d44acfaa276f1590c0, type: 3}
+  m_Name: Attack Data
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 530407073812979417, guid: 8784eebf13100e84a87faf58025da900, type: 3}
+  entries:
+  - name: Punch
+    keyframes:
+    - position: {x: 0, y: 0, z: 0.74}
+      radius: 1.5
+      duration: 0
+      damage: 0
+    - position: {x: -0.61, y: 0, z: 0.9}
+      radius: 4.5
+      duration: 0.015625
+      damage: 5
+    - position: {x: -10, y: 0, z: 1.32}
+      radius: 6
+      duration: 0.125
+      damage: 10
+    - position: {x: -10, y: 0, z: 1.32}
+      radius: 6
+      duration: 0.125
+      damage: 10
+    - position: {x: -0.96, y: 0, z: 0.34}
+      radius: 4.5
+      duration: 0.5
+      damage: 1
+    - position: {x: 0, y: 0, z: 0}
+      radius: 1.5
+      duration: 0.0625
+      damage: 0
+  - name: SmallPunch
+    keyframes:
+    - position: {x: 0, y: 0, z: 0.74}
+      radius: 1.5
+      duration: 0
+      damage: 0
+    - position: {x: -0.61, y: 0, z: 0.9}
+      radius: 2.25
+      duration: 0.015625
+      damage: 5
+    - position: {x: -6.15, y: 0, z: 1.32}
+      radius: 3
+      duration: 0.0625
+      damage: 5
+    - position: {x: -6.15, y: 0, z: 1.32}
+      radius: 3
+      duration: 0.0625
+      damage: 5
+    - position: {x: -0.96, y: 0, z: 0.34}
+      radius: 2.25
+      duration: 0.25
+      damage: 1
+    - position: {x: 0, y: 0, z: 0}
+      radius: 0.1875
+      duration: 0.03125
+      damage: 0
+  - name: Spin
+    keyframes:
+    - position: {x: 0, y: 0, z: 0.74}
+      radius: 1.5
+      duration: 0
+      damage: 0
+    - position: {x: 0, y: 0.47, z: 1.65}
+      radius: 3.375
+      duration: 0.125
+      damage: 5
+    - position: {x: 0, y: 1.62, z: 3.65}
+      radius: 5.625
+      duration: 0.125
+      damage: 11
+    - position: {x: -3.65, y: 1.62, z: 3.65}
+      radius: 6.75
+      duration: 0.125
+      damage: 14
+    - position: {x: -3.65, y: 1.62, z: 0}
+      radius: 6.75
+      duration: 0.125
+      damage: 17
+    - position: {x: -3.65, y: 1.62, z: -3.65}
+      radius: 6.75
+      duration: 0.125
+      damage: 17
+    - position: {x: 0, y: 1.62, z: -3.65}
+      radius: 6.75
+      duration: 0.125
+      damage: 17
+    - position: {x: 3.65, y: 1.62, z: -3.65}
+      radius: 6.75
+      duration: 0.125
+      damage: 17
+    - position: {x: 3.65, y: 1.62, z: 0}
+      radius: 6.75
+      duration: 0.125
+      damage: 14
+    - position: {x: 3.65, y: 1.62, z: 3.65}
+      radius: 5.625
+      duration: 0.125
+      damage: 11
+    - position: {x: 0, y: 1.62, z: 3.65}
+      radius: 3.375
+      duration: 0.125
+      damage: 5
+    - position: {x: 0, y: 0, z: 0}
+      radius: 1.5
+      duration: 0.0625
+      damage: 0
+  - name: WeakSpin
+    keyframes:
+    - position: {x: 0, y: 0, z: 0.74}
+      radius: 1.5
+      duration: 0
+      damage: 0
+    - position: {x: 0, y: 0.47, z: 1.65}
+      radius: 2.25
+      duration: 0.125
+      damage: 3
+    - position: {x: 0, y: 1.62, z: 2.92}
+      radius: 3.75
+      duration: 0.125
+      damage: 8
+    - position: {x: -2.92, y: 1.62, z: 2.92}
+      radius: 4.5
+      duration: 0.125
+      damage: 10
+    - position: {x: -2.92, y: 1.62, z: 0}
+      radius: 4.5
+      duration: 0.125
+      damage: 13
+    - position: {x: -2.92, y: 1.62, z: -2.92}
+      radius: 4.5
+      duration: 0.125
+      damage: 13
+    - position: {x: 0, y: 1.62, z: -2.92}
+      radius: 4.5
+      duration: 0.125
+      damage: 13
+    - position: {x: 3.06, y: 1.62, z: -2.92}
+      radius: 14.23
+      duration: 0.125
+      damage: 13
+    - position: {x: 2.92, y: 1.62, z: 0}
+      radius: 4.5
+      duration: 0.125
+      damage: 10
+    - position: {x: 2.92, y: 1.62, z: 2.92}
+      radius: 3.75
+      duration: 0.125
+      damage: 8
+    - position: {x: 0, y: 1.62, z: 2.92}
+      radius: 2.25
+      duration: 0.125
+      damage: 5
+    - position: {x: 0, y: 0, z: 0}
+      radius: 1.5
+      duration: 0.0625
+      damage: 0
+  projectiles:
+  - name: Bullet
+    speed: 40
+    cooldown: 0.6
+    radius: 2.25
+    duration: 10
+    damage: 23
+  - name: SlowBullet
+    speed: 15
+    cooldown: 1
+    radius: 4.5
+    duration: 10
+    damage: 20

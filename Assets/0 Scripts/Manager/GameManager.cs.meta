@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f9583bbabf71d9a459050a1ed305bc55
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - globalData: {fileID: 11400000, guid: e600576041c474c4aae9b57cc24fd728, type: 2}
+  - playerInputManager: {instanceID: 0}
+  - lobbyCanvas: {instanceID: 0}
+  - joinText: {instanceID: 0}
+  - startText: {instanceID: 0}
+  - lobbyCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
